@@ -1,0 +1,44 @@
+person_id,first_name,last_name,person_type,room_number,job_title
+P001,Victor,Marlowe,Staff,,Owner
+P002,Rosie,Quinn,Staff,,Bar staff
+P003,Ross,Fenton,Staff,,Kitchen
+P004,Rosa,Lind,Staff,,Reception
+P005,Dev,Mistry,Staff,,Housekeeping
+P006,Lena,Hart,Staff,,Housekeeping
+P007,Kwame,Asante,Staff,,Bar staff
+P008,Bea,Holloway,Staff,,Reception
+P009,Arjun,Rao,Staff,,Kitchen
+P010,Molly,Finch,Staff,,Spa
+P011,Tariq,Bell,Staff,,Night manager
+P012,Graham,Pike,Guest,207,
+P013,Oscar,Marlowe,Guest,104,
+P014,Harriet,Bell,Guest,311,
+P015,Fiona,Grant,Guest,205,
+P016,Martin,Cole,Guest,211,
+P017,Ana,Ruiz,Guest,302,
+P018,Hugo,Sterling,Guest,209,
+P019,Priya,Desai,Guest,110,
+P020,Callum,Reid,Guest,206,
+P021,Nell,Okafor,Guest,306,
+P022,Felix,Moreau,Guest,308,
+P023,June,Abara,Guest,303,
+P024,Ivan,Petrov,Guest,304,
+P025,Sadie,Lowe,Guest,301,
+P026,Theo,Nakamura,Guest,310,
+P027,Maeve,Doyle,Guest,204,
+P028,Ezra,Klein,Guest,101,
+P029,Lottie,Shaw,Guest,109,
+P030,Rhys,Morgan,Guest,201,
+P031,Yara,Haddad,Guest,202,
+P032,Owen,Price,Guest,108,
+P033,Cora,Bennett,Guest,210,
+P034,Jonah,Fry,Guest,203,
+P035,Isla,Mackay,Guest,107,
+P036,Bram,de Vries,Guest,111,
+P037,Esther,Cho,Guest,106,
+P038,Kit,Barnes,Guest,105,
+P039,Lola,Fischer,Guest,208,
+P040,Amos,Taylor,Guest,102,
+P041,Rina,Sato,Guest,103,
+P042,Gus,Webb,Guest,309,
+P043,Tessa,Vale,Guest,307,

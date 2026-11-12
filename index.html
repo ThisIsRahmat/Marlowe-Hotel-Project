@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Murder at the Marlowe Hotel: Case Database</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#sql">Skip to the query box</a>
+
+  <header class="site-header">
+    <h1>Murder at the Marlowe Hotel: Case Database</h1>
+    <p class="tagline">Write a SQL query, press <strong>Run query</strong>, and study the evidence.</p>
+  </header>
+
+  <div class="layout">
+    <aside class="tables-panel" aria-labelledby="tables-heading">
+      <h2 id="tables-heading">Case files (tables)</h2>
+      <p class="panel-help">Click a table to see its columns.</p>
+      <ul id="table-list" class="table-list"></ul>
+    </aside>
+
+    <main class="workspace">
+      <section aria-labelledby="query-heading">
+        <h2 id="query-heading"><label for="sql">Your SQL query</label></h2>
+        <textarea id="sql" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off"
+                  aria-describedby="shortcut-help"></textarea>
+        <p id="shortcut-help" class="shortcut-help">
+          Tip: press <kbd>Ctrl</kbd> + <kbd>Enter</kbd> (or <kbd>Cmd</kbd> + <kbd>Enter</kbd> on a Mac) to run.
+        </p>
+        <div class="actions">
+          <button type="button" id="run" class="btn btn-primary" disabled>Run query</button>
+          <button type="button" id="copy" class="btn" disabled>Copy for my case notebook</button>
+          <button type="button" id="reset" class="btn btn-quiet" disabled>Reset data</button>
+        </div>
+      </section>
+
+      <section aria-labelledby="results-heading" class="results-section">
+        <h2 id="results-heading">Results</h2>
+        <div id="status" class="status" role="status" aria-live="polite">Loading the case database…</div>
+        <div id="results"></div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>Runs entirely in your browser. Nothing you type is sent anywhere. Refreshing the page or pressing
+      <strong>Reset data</strong> puts all the data back to how it started.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.12.0/sql-wasm.js"
+          integrity="sha384-1fHJox8K973mCCD3PTAOc0ljrAGXD2VeK8zf+vNIdx55pWPULNlpxKMkU8bF4nUd"
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="data/marlowe-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

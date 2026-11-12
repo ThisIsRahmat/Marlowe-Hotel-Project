@@ -1,0 +1,12 @@
+report_id,report_date,location,report_type,description
+CR01,2026-11-09,Car park,Damage,A car window was found broken in the car park. Nothing was taken.
+CR02,2026-11-10,Room 109,Theft,A guest reported a watch missing from their room. It was later found under the bed.
+CR03,2026-11-11,Spa,Complaint,A guest complained that the sauna was too cold.
+CR04,2026-11-12,Second floor,Noise,Loud music reported from a room on the second floor after midnight.
+CR05,2026-11-12,Restaurant,Complaint,A guest complained about a long wait for dinner.
+CR06,2026-11-13,Reception,Lost property,A guest handed in a set of car keys found in the lobby.
+CR07,2026-11-13,Gym,Damage,A treadmill stopped working. Engineer booked for Monday.
+CR08,2026-11-14,Main entrance,Damage,Storm damage: a window in the main entrance was smashed by a falling branch at 19:30.
+CR09,2026-11-14,Library,Murder,"At 23:40 the hotel's owner, Victor Marlowe, was found dead in the library. The storm had closed the only road, so nobody could have left the hotel. Police want to speak to two witnesses. The first is the guest staying in the highest-numbered room on the top floor. The second is a member of the bar staff whose first name begins with 'Ros'."
+CR10,2026-11-14,Bar,Complaint,A guest complained that the bar ran out of ice.
+CR11,2026-11-15,Lobby,Lost property,A WINDOW cleaner's ladder was left in the lobby overnight.
